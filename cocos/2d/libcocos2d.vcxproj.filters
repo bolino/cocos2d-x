@@ -292,6 +292,9 @@
     <Filter Include="external\md5">
       <UniqueIdentifier>{d3d38486-e13f-47b4-96b0-51a7c78e6d69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{3de01f72-cadb-40c9-a6d6-c18fa3dffde5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\physics\CCPhysicsBody.cpp">
@@ -1995,6 +1998,19 @@
     </ClCompile>
     <ClCompile Include="..\ui\UIEditBox\UIEditBoxImpl-common.cpp">
       <Filter>ui\UIWidgets\EditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\CCController.cpp" />
+    <ClCompile Include="..\base\CCController-linux-win32.cpp" />
+    <ClCompile Include="..\base\CCEventController.cpp" />
+    <ClCompile Include="..\base\CCEventListenerController.cpp" />
+    <ClCompile Include="..\..\external\imgui\imgui.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_demo.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\imgui\imgui_draw.cpp">
+      <Filter>external\imgui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -3903,6 +3919,27 @@
     </ClInclude>
     <ClInclude Include="..\ui\UIEditBox\UIEditBoxImpl-common.h">
       <Filter>ui\UIWidgets\EditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\CCController.h" />
+    <ClInclude Include="..\base\CCEventController.h" />
+    <ClInclude Include="..\base\CCEventListenerController.h" />
+    <ClInclude Include="..\..\external\imgui\imconfig.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\imgui_internal.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\stb_rect_pack.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\stb_textedit.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external\imgui\stb_truetype.h">
+      <Filter>external\imgui</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
